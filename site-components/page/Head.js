@@ -1,12 +1,12 @@
 import React, {Component} from "react";
 import NextHead from "next/head";
-import styles from "../../sass/style.module.scss";
 import {Favicon} from "../images/Favicon";
 
 class Head extends Component {
     render(){
         return (
             <NextHead>
+            
                 <title>HPB17 - The newest FOMO game for the HPB blockchain</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <link
@@ -16,7 +16,7 @@ class Head extends Component {
                       href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
                       integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
                       crossOrigin="anonymous"/>
-                <link rel="stylesheet" href="/_next/static/style.css"/>
+                <link rel="stylesheet" href="/sass/style.scss"/>
                 <Favicon/>
                 {this.props.children}
             </NextHead>
