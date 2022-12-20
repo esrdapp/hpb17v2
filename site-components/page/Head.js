@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import NextHead from "next/head";
-import "../../sass/style.module.scss";
+import styles from "../../sass/style.module.scss";
 import {Favicon} from "../images/Favicon";
 
 class Head extends Component {
