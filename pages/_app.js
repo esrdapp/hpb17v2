@@ -1,4 +1,4 @@
-import styles from './style.module.scss';
+import styles from '../sass/style.module.scss';
 import NextApp, {Container} from "next/app";
 import React from "react";
 import withReduxStore from "../components/hocs/withReduxStore";
